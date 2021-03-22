@@ -1,0 +1,163 @@
+/* *temp */
+.construction{
+    font-size: 2em;
+    margin-bottom: -3px;
+    text-align: center;
+}
+/* *temp */
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 8%;
+    text-align: center;
+}
+
+header h3 {
+    font-weight: 300;
+    
+}
+
+hr {
+    text-align: center; 
+}
+
+.rounded {
+    border-radius: 3px;
+    border-top: 4px solid #bbb;
+    margin: auto;
+    width: 35%;
+}
+
+.container.buttons {
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    grid-template-columns: repeat(4, 175px);
+    grid-template-rows: 75px;
+    margin-top: 100px;
+}
+
+.button {
+    border: 2px;
+    border-style: solid;
+    padding-top: 15%;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button.art {
+    border-color:blue;
+    color:blue;
+}
+
+.button.git {
+    border-color: green;
+    color: green;
+}
+
+.button.email {
+    border-color: red;
+    color: red;
+}
+
+.button.about {
+    border-color: orange;
+    color: orange;
+}
+
+/* *GUI pop-up styling */
+    /* *start */
+
+* {
+    box-sizing: border-box;
+    }
+      
+.window {
+    border: 3px solid blue;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: inset 5em 2em 0 3em blue;
+    /* max-width: 50%; */
+    /* margin-top: 10px; */
+}
+
+.row {
+    padding: 10px;
+    background: blue;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .row:after {
+    content: "";
+    display: grid;
+    clear: both;
+}
+  
+ .column {
+    float: left;
+}
+
+.right {
+    float: right;
+} 
+
+.close {
+    margin-top: 4px;
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close:hover {
+    background-color: rgb(170, 0, 0);
+    cursor:pointer;
+}
+
+.bar {
+    background-color: #aaa;
+    display: block;
+    height: 3px;
+    margin: 3px 0;
+    width: 17px;
+}
+
+.content {
+    padding: 10px;
+    border: 2px solid blue;
+    box-shadow: none;
+    background: none;
+    /* width: inherit; */
+    background: #d4d4d475;
+}
+
+/* *interactable elements styling */
+#drag {
+    position: absolute;
+    width: 25%;
+    z-index: 9;
+    text-align: center;
+  }
+  
+  #dragheader {
+    /* padding: 10px; */
+    cursor: move;
+    z-index: 10;
+  }
+
+.modal {
+    transform: translate(25%, 25%) scale(0);
+}
+
+.modal.active {
+    transform: translate(25%, 25%) scale(1);
+  }

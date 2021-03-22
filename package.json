@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "linter",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  },
+  "author": "tima",
+  "license": "ISC"
+}
