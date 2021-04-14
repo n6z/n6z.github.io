@@ -1,8 +1,15 @@
+/* jshint esversion: 10 */
+/* jshint node: true */
+/* jshint browser: true */
+
 //Make the DIV element draggable:
 dragElement(document.getElementById("drag"));
 
 function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  var pos1 = 0,
+    pos2 = 0,
+    pos3 = 0,
+    pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
     /* if present, the header is where you move the DIV from:*/
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
@@ -31,8 +38,8 @@ function dragElement(elmnt) {
     pos3 = e.clientX;
     pos4 = e.clientY;
     // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    elmnt.style.top = elmnt.offsetTop - pos2 + "px";
+    elmnt.style.left = elmnt.offsetLeft - pos1 + "px";
   }
 
   function closeDragElement() {
@@ -41,3 +48,15 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+const modalBlue = document.querySelector(".modal");
+const btnBlue = document.querySelector(".art");
+const btnCloseBlue = document.querySelector(".close");
+
+btnBlue.addEventListener("click", function () {
+  document.getElementsByClassName("hidden")[0].style.display = "inline";
+});
+
+btnCloseBlue.addEventListener("click", function () {
+  document.getElementsByClassName("hidden")[0].style.display = "none";
+});
