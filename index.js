@@ -2,6 +2,11 @@
 /* jshint node: true */
 /* jshint browser: true */
 
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 //Make the DIV element draggable:
 dragElement(document.getElementById("drag"));
 
