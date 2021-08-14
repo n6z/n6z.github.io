@@ -14,87 +14,36 @@
   </head>
 
   <body>
-    <label class="switch">
-      <input onclick="darkMode()" type="checkbox" name="darklight" id="" />
-      <span class="slider round"></span>
-    </label>
-
     <header>
-      <h1>Hi! I'm Tima😊</h1>
-      <h3>Artist, developer, gardener, tinkerer.</h3>
+      <nav>
+        <ul class="container buttons">
+          <li class="button art">
+            <a href="/art.html">Art</a>
+          </li>
+          <li class="button git">
+            <a href="/dev.html">Programming</a>
+          </li>
+          <li class="button email">
+            <a href="mailto: timothy.smirnov@gmail.com">Email</a>
+          </li>
+          <li data-modal-target="#modal" class="button about">
+            <a href="/about.html">About</a>
+          </li>
+
+          <label class="switch">
+            <input
+              onclick="darkMode()"
+              type="checkbox"
+              name="darklight"
+              id=""
+            />
+            <span class="slider round"></span>
+          </label>
+        </ul>
+      </nav>
     </header>
     <h3 class="construction">👷‍♂️🚧🏭</h3>
-    <hr class="rounded"/>
-
-    <nav>
-      <div class="container buttons">
-        <div data-modal-target="#modal" class="button art">Art</div>
-        <div class="button git">gitHub</div>
-        <div class="button email">Email</div>
-        <div class="button about">About</div>
-      </div>
-      <!-- hidden elements -->
-      <!-- blue -- art -->
-      <div class="modal hidden drag" id="drag">
-        <!-- change class name later with multiple buttons!! -->
-        <div class="window blue" id="dragheader">
-          <div class="row">
-            <div class="column left">
-              <span class="close"></span>
-            </div>
-
-            <!-- <div class="column right">
-              <div style="float: right">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-            </div> -->
-          </div>
-        </div>
-        <div class="window content">
-          <h3>You can find my art here:</h3>
-          <p>
-            <a
-              href="https://www.pixilart.com/capricorn"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Pixel Art</a
-            >
-          </p>
-        </div>
-      </div>
-
-      <div class="modal hidden drag" id="drag">
-        <!-- change class name later with multiple buttons!! -->
-        <div class="window blue header" id="dragheader">
-          <div class="row">
-            <div class="column left">
-              <span class="close"></span>
-            </div>
-
-            <!-- <div class="column right">
-              <div style="float: right">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-            </div> -->
-          </div>
-        </div>
-        <div class="window content">
-          <h3>You can find my art here:</h3>
-          <p>
-            <a
-              href="https://www.pixilart.com/capricorn"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Pixel Art</a
-            >
-          </p>
-        </div>
-      </div>
-    </nav>
+    <hr class="rounded" />
 
     <!-- <div class="container buttons">
         <ul>

@@ -1,0 +1,17 @@
+img {
+  width: 400px;
+  height: 250px;
+  padding: 5px;
+}
+
+.construction {
+  display: none;
+}
+
+.image.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
