@@ -1,11 +1,13 @@
+nav {
+  font-family: "Open Sans", sans-serif;
+  /*   font-size: 1.5em; */
+  text-align: center;
+}
+
 img {
   width: 400px;
   height: 250px;
   padding: 5px;
-}
-
-.construction {
-  display: none;
 }
 
 .image.container {

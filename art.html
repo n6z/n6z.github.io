@@ -11,29 +11,33 @@
     </style>
     <title>Tima's Website – Art</title>
     <link rel="stylesheet" href="/css/styles.css" />
-	<link rel="stylesheet" href="/css/art.css" />
+    <link rel="stylesheet" href="/css/art.css" />
   </head>
 
   <body>
-    <label class="switch">
-      <input onclick="darkMode()" type="checkbox" name="darklight" id="" />
-      <span class="slider round"></span>
-    </label>
-
-    <header>
-      <h1>Hi! I'm Tima😊</h1>
-      <h3>Artist, developer, gardener, tinkerer.</h3>
-    </header>
-    <h3 class="construction">👷‍♂️🚧🏭</h3>
-    <hr class="rounded" />
-
     <nav>
-      <div class="container buttons">
-        <div class="button art">Art</div>
-        <div class="button git">gitHub</div>
-        <div class="button email">Email</div>
-        <div data-modal-target="#modal" class="button about">About</div>
-      </div>
+      <ul class="container buttons">
+        <li class="button home">
+          <a href="/index.html">Home</a>
+        </li>
+        <li class="button art">
+          <a href="/art.html">Art</a>
+        </li>
+        <li class="button git">
+          <a href="/dev.html">Programming</a>
+        </li>
+        <li class="button email">
+          <a href="mailto: timothy.smirnov@gmail.com">Email</a>
+        </li>
+        <li data-modal-target="#modal" class="button about">
+          <a href="/about.html">About</a>
+        </li>
+
+        <label class="switch">
+          <input onclick="darkMode()" type="checkbox" name="darklight" id="" />
+          <span class="slider round"></span>
+        </label>
+      </ul>
     </nav>
     <div class="image container">
       <img src="/images/art1.png" alt="" />
