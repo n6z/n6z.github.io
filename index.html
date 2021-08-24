@@ -16,7 +16,7 @@
   <body>
     <header>
       <nav>
-        <div>
+        <div class="header">
           <ul class="container buttons">
             <li class="button home">
               <a href="/index.html">Home</a>
@@ -34,7 +34,7 @@
               <a href="/about.html">About</a>
             </li>
 
-            <label class="switch">
+            <label class="switch headerSwitch">
               <input
                 onclick="darkMode()"
                 type="checkbox"
@@ -63,5 +63,16 @@
         </ul>
     </div> -->
   </body>
+  <footer>
+	<label class="switch footerSwitch">
+		<input
+		  onclick="darkMode()"
+		  type="checkbox"
+		  name="darklight"
+		  id=""
+		/>
+		<span class="slider round"></span>
+	  </label>
+  </footer>
   <script src="index.js"></script>
 </html>
