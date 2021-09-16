@@ -9,40 +9,11 @@
 /* small screen */
 @media screen and (max-width: 565px) {
   .headerSwitch {
-    display: none;
+    display: none !important;
   }
 }
 
-/* *nav menu */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(32, 32, 32);
-}
-li {
-  display: flex;
-  float: left;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-li.about {
-  position: relative;
-  right: 0;
-}
-
-/**Dark Mode*/
+/**Dark Mode and Switch*/
 body {
   background-color: rgb(48, 48, 48);
   color: rgb(230, 230, 230);
@@ -55,12 +26,13 @@ body {
   color: black;
   transition: background 2s ease;
 }
-
-.switch {
-  /* display: inline-block; */
+.headerSwitch {
   float: right;
+}
+.switch {
+  display: inline-block;
   height: 34px;
-  margin-right: 1em;
+  margin: 0 auto;
   position: relative;
   top: 7px;
   width: 60px;
@@ -110,15 +82,37 @@ input:checked + .slider:before {
 
 label.switch.footerSwitch {
   margin-bottom: 1em;
-  margin-right: 1em;
   display: flex;
 }
-/* *dark mode end */
+/* !dark mode end */
 
-header {
-  font-family: "Open Sans", sans-serif;
-  /*   font-size: 1.5em; */
+/* *Navigation Start*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(32, 32, 32);
+}
+li {
+  display: flex;
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li.about {
+  position: relative;
+  right: 0;
 }
 
 header h3 {
@@ -140,6 +134,12 @@ hr {
   width: 35%;
 }
 
+header {
+  font-family: "Open Sans", sans-serif;
+  /*   font-size: 1.5em; */
+  text-align: center;
+}
+
 /* *Footer Start */
 
 footer {
@@ -149,7 +149,6 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  z-index: -1;
 }
 .footer-container {
   margin: 25px 0;
@@ -169,16 +168,13 @@ footer {
   flex-direction: row;
 }
 
-footer h2 {
-  margin: 0;
-  padding: 0;
-}
-
 .footer-heading a {
   color: #bbb;
-  display: inline;
+  display: flex;
+  flex-direction: column;
   margin: 5px 5px 0px 5px;
   text-decoration: none;
+  text-align: center;
 }
 
 /* !Footer End */
@@ -194,7 +190,6 @@ footer h2 {
   margin-left: 2em;
   margin-right: 2em;
   text-align: center;
-  z-index: 0;
 }
 
 .aboutme span {
