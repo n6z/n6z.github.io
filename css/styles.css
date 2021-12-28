@@ -6,20 +6,15 @@
 }
 /* *temp */
 
-/* small screen */
-@media screen and (max-width: 565px) {
-  .headerSwitch {
-    display: none !important;
-  }
-}
-
-/**Dark Mode and Switch*/
 body {
   background-color: rgb(48, 48, 48);
   color: rgb(230, 230, 230);
   margin: 0;
-  transition: background 1s;
+  transition: background 1s ease;
+  transition: color 2s ease;
 }
+
+/**Dark Mode and Switch*/
 
 .dark-mode {
   background-color: rgb(202, 202, 202);
@@ -146,12 +141,10 @@ footer {
   background: rgb(32, 31, 31);
   position: fixed;
   height: fit-content;
+  padding-top: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
-}
-.footer-container {
-  margin: 25px 0;
 }
 .footer {
   color: rgb(231, 231, 231);
@@ -183,18 +176,23 @@ footer {
 
 .aboutme {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  line-height: 30px;
-  margin-top: 40px;
+  /*   line-height: 30px;
+  margin-top: 40px;*/
   margin-left: 2em;
   margin-right: 2em;
+  margin-bottom: 100px;
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-.aboutme span {
-  font-size: 30px;
-  line-height: initial;
+/* small screen hideTopSwitch */
+@media screen and (max-width: 565px) {
+  .headerSwitch {
+    display: none !important;
+  }
 }
 
 /* larger screen */
@@ -202,13 +200,28 @@ footer {
   label.switch.footerSwitch {
     display: none;
   }
-  .aboutme span {
-    color: red;
-    line-height: initial;
-    font-size: 35px !important;
-  }
-  .aboutme {
-    margin-left: 15em;
-    margin-right: 15em;
+
+  div.aboutme {
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
 }
+
+.image.container {
+  margin-bottom: 100px;
+}
+
+/* poem */
+
+div.poem {
+  line-height: 20px;
+  margin-top: 40px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 50px;
+  text-align: auto;
+  position: relative;
+  min-height: 100vh;
+  z-index: -1;
+}
+
