@@ -10,7 +10,7 @@ body {
   background-color: rgb(48, 48, 48);
   color: rgb(230, 230, 230);
   margin: 0;
-  transition: background 1s ease;
+  transition: background 2s ease;
   transition: color 2s ease;
 }
 
@@ -27,7 +27,7 @@ body {
 .switch {
   display: inline-block;
   height: 34px;
-  margin: 0 auto;
+  margin: 0 1%;
   position: relative;
   top: 7px;
   width: 60px;
@@ -40,6 +40,7 @@ body {
 }
 .slider {
   position: absolute;
+  border-radius: 1px;
   cursor: pointer;
   top: 0;
   left: 0;
@@ -215,7 +216,6 @@ footer {
 
 div.poem {
   line-height: 20px;
-  margin-top: 40px;
   margin-left: 2em;
   margin-right: 2em;
   margin-bottom: 50px;
@@ -225,3 +225,11 @@ div.poem {
   z-index: -1;
 }
 
+.poemBtn{
+	margin-left: 45vw;
+	margin-top: 10px;
+}
+
+div.poem {
+	float: left;
+}

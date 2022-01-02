@@ -38,6 +38,12 @@ function displayPoem() {
 		poem_div.classList.add("poem");
 		poem_div.innerHTML = `<h2>${poem_title}</h2><p style={{whiteSpace: 'pre-line'}}>${poem_text_br}</p><em><p>${poem_author}</p></em><a href=${poem_url}>Read more on Poemist</a>`;
 		document.body.append(poem_div);
+	//if poem is not found, display error message
+	}).catch(error => {
+		let poem_div = document.createElement("div");
+		poem_div.classList.add("poem");
+		poem_div.innerHTML = `<h2>Error</h2><p>No poem found</p>`;
+		document.body.append(poem_div);
 	});
 }
 
