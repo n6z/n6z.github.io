@@ -11,7 +11,6 @@ body {
   color: rgb(230, 230, 230);
   margin: 0;
   transition: background 2s ease;
-  transition: color 2s ease;
 }
 
 /**Dark Mode and Switch*/
@@ -132,8 +131,8 @@ hr {
 
 header {
   font-family: "Open Sans", sans-serif;
-  /*   font-size: 1.5em; */
   text-align: center;
+  font-weight: bold;
 }
 
 /* *Footer Start */
@@ -215,21 +214,26 @@ footer {
 /* poem */
 
 div.poem {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 20px;
+  float: left;
   margin-left: 2em;
   margin-right: 2em;
   margin-bottom: 50px;
   text-align: auto;
   position: relative;
-  min-height: 100vh;
   z-index: -1;
+  padding: 1em;
+  background-color: rgb(37 35 42 / 70%);
+  border-radius: 0.75rem;
+  box-shadow: ;
 }
 
-.poemBtn{
-	margin-left: 45vw;
-	margin-top: 10px;
-}
-
-div.poem {
-	float: left;
+.poemBtn {
+  margin: 1em 2em;
+  padding: 1em;
+  /* center the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
