@@ -139,11 +139,13 @@ header {
 
 footer {
   background: rgb(32, 31, 31);
-  position: fixed;
+  bottom: 0;
+  clear: both;
   height: fit-content;
   padding-top: 10px;
-  left: 0;
-  bottom: 0;
+  padding-bottom: 10px;
+  margin-top: 100vh;
+  position: relative;
   width: 100%;
 }
 .footer {
@@ -222,11 +224,11 @@ div.poem {
   margin-bottom: 50px;
   text-align: auto;
   position: relative;
-  z-index: -1;
   padding: 1em;
   background-color: rgb(37 35 42 / 70%);
   border-radius: 0.75rem;
-  box-shadow: ;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: -1;
 }
 
 .poemBtn {
@@ -236,4 +238,6 @@ div.poem {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 45%;
 }
