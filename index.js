@@ -54,6 +54,23 @@ function displayPoem() {
     });
 }
 
+/* when page is able to scroll, change footer to relative */
+
+window.onscroll = function () {
+  let footer = document.getElementsByTagName("footer")[0];
+  if (window.pageYOffset > 0) { 
+    footer.style.position = "relative";
+    footer.style.width = "auto";
+  } else {
+    footer.style.position = "fixed";
+    footer.style.width = "100%";
+  }
+};
+
+//Poem display end
+
+/* change footer bottom value so footer is always at bottom of screen */
+
 /* getPoem().then(poem => {
 	  const poemDiv = document.createElement("div");
 	  poemDiv.innerHTML = poem;

@@ -145,15 +145,13 @@ hr {
 /* *Footer Start */
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /*  padding-top: 0.5rem; */
-  width: 100%;
- height: fit-content;
-  background: #0f0f0f;
-  top: auto;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 3em;
+	color: rgb(230, 230, 230);
+	text-align: center;
+	padding: 1em;
 }
 .footer {
   color: rgb(231, 231, 231);
