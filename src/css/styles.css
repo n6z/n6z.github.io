@@ -1,0 +1,172 @@
+/* *temp */
+.construction {
+  font-size: 2em;
+  text-align: center;
+}
+/* *temp */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(77, 77, 77);
+  color: rgb(246, 246, 246);
+  transition: background 2s ease;
+  position: relative;
+}
+
+/* *Navigation Start*/
+header {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header {
+  border-bottom: solid 5px black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(32, 32, 32);
+}
+
+li {
+  display: flex;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li.about {
+  position: relative;
+  right: 0;
+}
+
+header h3 {
+  font-weight: 300;
+}
+
+.home {
+  text-decoration: underline;
+}
+
+hr {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 3px;
+  border-top: 4px solid #bbb;
+  margin: auto;
+  width: 35%;
+}
+
+/* *Footer Start */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 1em;
+}
+.footer {
+  color: rgb(231, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+  height: 20%;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-heading a {
+  color: rgb(222, 222, 222);
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px 0px 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* !Footer End */
+
+/* *About Page Start*/
+
+.aboutme {
+  display: block;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  /*   line-height: 30px;
+  margin-top: 40px;*/
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+/* larger screen */
+@media only screen and (min-width: 565px) {
+  div.aboutme {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+.image.container {
+  margin-bottom: 100px;
+}
+
+/* poem */
+
+div.poem {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  float: left;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 50px;
+  text-align: auto;
+  position: relative;
+  padding: 1em;
+  background-color: rgb(37 35 42 / 70%);
+  border-radius: 0.75rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: 0;
+}
+
+.poemBtn {
+  margin: 1em 2em;
+  padding: 1em;
+  /* center the button */
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  left: 45%;
+  z-index: 1;
+}
