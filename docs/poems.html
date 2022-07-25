@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="/all.css" />
@@ -12,36 +11,37 @@
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap");
     </style>
     <title>Tima's Website</title>
-    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/docs/css/styles.css" />
   </head>
 
   <body>
-	<header>
-      <nav>
-        <div class="header">
-          <ul class="container buttons">
-			<li class="button home">
-				<a href="/src/index.html">Home</a>
-			  </li>
-			  <li data-modal-target="#modal" class="button about">
-				<a href="/src/about.html">About</a>
-			  </li>
-			  <li class="button art">
-				<a href="/src/art.html">Art</a>
-			  </li>
-			  <li class="button git">
-				<a href="/src/poems.html">Poem Generator</a>
-			  </li>
-          </ul>
-        </div>
-      </nav>
-	</header>
-
-    	<h3 class="construction">👷‍♂️🚧🏭</h3>
-    	<hr class="rounded" />
-
-	<footer>
-    <div class="footer-container">
+    <header>
+		<nav>
+		  <div class="header">
+			<ul class="container buttons">
+			  <li class="button home">
+				  <a href="/docs/index.html">Home</a>
+				</li>
+				<li data-modal-target="#modal" class="button about">
+				  <a href="/docs/about.html">About</a>
+				</li>
+				<li class="button art">
+				  <a href="/docs/art.html">Art</a>
+				</li>
+				<li class="button git">
+				  <a href="/docs/poems.html">Poem Generator</a>
+				</li>
+			</ul>
+		  </div>
+		</nav>
+	  </header>
+	
+   <div class="poemDisplay">
+	   <button type="button" class="poemBtn" id="poemBtn"><i class="fas fa-book">Generate Poem</i> </button>
+   </div>
+<footer>
+    
+		
       <div class="footer">
         <div class="footer-heading footer-1">
           <a href="mailto: timothy.smirnov@gmail.com">
@@ -61,9 +61,10 @@
             <span class="visually-hidden">youtube</span>
           </a>
         </div>
-      </div>    
-	</footer>
+  </footer>
+     
   </body>
+  
 
-	<script src="/src/index.js"></script>
+  <script src="/docs/index.js"></script>
 </html>
