@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "linter",
   "main": "index.js",
-  "dependencies": {
-    "@11ty/eleventy": "^1.0.1"
-  },
+  "scripts": {},
   "devDependencies": {
     "eslint": "^7.22.0"
   },
