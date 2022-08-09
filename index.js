@@ -9,6 +9,19 @@ function darkMode() {
 }
 //Dark mode toggle end
 
+/* when page is able to scroll, change footer to relative */
+
+window.onscroll = function () {
+	let footer = document.getElementsByTagName("footer")[0];
+	if (window.pageYOffset > 0) { 
+	  footer.style.position = "relative";
+	  footer.style.width = "auto";
+	} else {
+	  footer.style.position = "fixed";
+	  footer.style.width = "100%";
+	}
+  };
+
 //Poem display begin
 
 const api_url = "https://www.poemist.com/api/v1/randompoems";
@@ -53,19 +66,6 @@ function displayPoem() {
       document.getElementsByClassName("poemDisplay")[0].appendChild(poem_div);
     });
 }
-
-/* when page is able to scroll, change footer to relative */
-
-window.onscroll = function () {
-  let footer = document.getElementsByTagName("footer")[0];
-  if (window.pageYOffset > 0) { 
-    footer.style.position = "relative";
-    footer.style.width = "auto";
-  } else {
-    footer.style.position = "fixed";
-    footer.style.width = "100%";
-  }
-};
 
 //Poem display end
 

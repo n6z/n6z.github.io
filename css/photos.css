@@ -1,8 +1,9 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-/*   grid-template-rows: repeat(8, 5vw);
- */  grid-gap: 15px;
+  /*   grid-template-rows: repeat(8, 5vw);
+ */
+  grid-gap: 15px;
 }
 
 .gallery__img {
@@ -11,3 +12,23 @@
   object-fit: cover;
 }
 
+figure {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*   grid-template-rows: repeat(8, 5vw);
+	   */
+    grid-gap: 5px;
+  }
+  .button {
+    display: none;
+  }
+  .home {
+    display: inline;
+  }
+}
