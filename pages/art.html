@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/favicon_io/favicon.ico"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="/all.css" />
-
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap");
     </style>
-    <title>Tima's Website – Art</title>
+    <title>Tima's Website</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/art.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+	<link rel="stylesheet" href="/css/art.css" />
+
   </head>
 
   <body>
@@ -30,11 +36,25 @@
             <li class="button art">
               <a href="/pages/art.html">Art</a>
             </li>
-            <li class="button poem">
-              <a href="/pages/poems.html">Poem Generator</a>
-            </li>
             <li class="button photos">
               <a href="/pages/photos.html">Photos</a>
+            </li>
+            <li class="button poem">
+              <a href="/pages/poems.html">Poems</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                  <i class="fas fa-bars"></i>Menu
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="/index.html">
+					<i class="fas fa-home"></i>Home</a>
+                  <a href="/pages/art.html">Art</a>
+                  <a href="/pages/photos.html">Photography</a>
+                  <a href="/pages/poems.html">Poems</a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>

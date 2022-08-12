@@ -26,14 +26,14 @@ header {
 }
 
 .header {
-  border-bottom: solid 5px black;
+  border-bottom: solid 2px rgb(135, 135, 135);
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: rgb(32, 32, 32);
 }
 
@@ -41,6 +41,7 @@ li {
   display: flex;
   float: left;
   border: solid 1px gray;
+  border-bottom: none;
   border-right-color: gray;
   border-right-style: solid;
   border-right-width: 1px;
@@ -62,9 +63,8 @@ li a:hover {
 
 li.about {
   position: relative;
-  right: 10px;
-  float: right;
-}
+/*   float: right;
+ */}
 
 header h3 {
   font-weight: 300;
@@ -177,3 +177,4 @@ div.poem {
   left: 45%;
   z-index: 1;
 }
+
