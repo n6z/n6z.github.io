@@ -29,7 +29,7 @@ header {
   border-bottom: solid 2px rgb(135, 135, 135);
 }
 
-ul {
+ul.container {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,7 +37,7 @@ ul {
   background-color: rgb(32, 32, 32);
 }
 
-li {
+li.button {
   display: flex;
   float: left;
   border: solid 1px gray;

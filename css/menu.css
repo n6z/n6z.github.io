@@ -52,9 +52,7 @@
   .show {
     display: block;
   }
-
-  .button {
-    display: none;
-  }
-
+li.button{
+	display: none;
+}
 }

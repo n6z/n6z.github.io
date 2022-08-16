@@ -16,53 +16,18 @@
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap");
     </style>
     <title>Tima's Website</title>
+    <script type="module" src="/template.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <div class="header">
-          <ul class="container buttons">
-            <li class="button home">
-              <a href="/index.html">Home</a>
-            </li>
-            <li data-modal-target="#modal" class="button about">
-              <a href="/pages/about.html">About</a>
-            </li>
-            <li class="button art">
-              <a href="/pages/art.html">Art</a>
-            </li>
-            <li class="button photos">
-              <a href="/pages/photos.html">Photos</a>
-            </li>
-            <li class="button poem">
-              <a href="/pages/poems.html">Poems</a>
-            </li>
-            <li>
-              <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                  <i class="fas fa-bars"></i>Menu
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="/index.html">
-					<i class="fas fa-home"></i>Home</a>
-                  <a href="/pages/art.html">Art</a>
-                  <a href="/pages/photos.html">Photography</a>
-                  <a href="/pages/poems.html">Poems</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <header-template></header-template>
 
-    	<h3 class="construction">👷‍♂️🚧🏭</h3>
-    	<hr class="rounded" />
-
+    <h3 class="construction">👷‍♂️🚧🏭</h3>
+    <hr class="rounded" />
+	<footer-template></footer-template>
   </body>
 
-	<script src="/index.js"></script>
+  <script src="/index.js"></script>
 </html>

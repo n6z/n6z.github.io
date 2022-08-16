@@ -16,48 +16,13 @@
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap");
     </style>
     <title>Tima's Website</title>
+	<script type="module" src="/template.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <div class="header">
-          <ul class="container buttons">
-            <li class="button home">
-              <a href="/index.html">Home</a>
-            </li>
-            <li data-modal-target="#modal" class="button about">
-              <a href="/pages/about.html">About</a>
-            </li>
-            <li class="button art">
-              <a href="/pages/art.html">Art</a>
-            </li>
-            <li class="button photos">
-              <a href="/pages/photos.html">Photos</a>
-            </li>
-            <li class="button poem">
-              <a href="/pages/poems.html">Poems</a>
-            </li>
-            <li>
-              <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                  <i class="fas fa-bars"></i>Menu
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="/index.html">
-					<i class="fas fa-home"></i>Home</a>
-                  <a href="/pages/art.html">Art</a>
-                  <a href="/pages/photos.html">Photography</a>
-                  <a href="/pages/poems.html">Poems</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<header-template></header-template>
 
     <div class="aboutme">
       <h1>Hey ! I'm Tima😊</h1>
@@ -74,30 +39,7 @@
       </p>
     </div>
 
-    <footer>
-      <div class="footer-container">
-        <div class="footer">
-          <div class="footer-heading footer-1">
-            <a href="mailto: timothy.smirnov@gmail.com">
-              <i class="fas fa-envelope-open fa-lg" aria-hidden="true"></i>
-              <span class="visually-hidden">email</span>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-              <span class="visually-hidden">twitter</span>
-            </a>
-            <a href="https://discordapp.com/users/466127372278824962/">
-              <i class="fab fa-discord fa-lg" aria-hidden="true"></i>
-              <span class="visually-hidden">discord</span>
-            </a>
-            <a href="#">
-              <i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
-              <span class="visually-hidden">youtube</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+<footer-template></footer-template>
   </body>
 
   <script src="/index.js"></script>
