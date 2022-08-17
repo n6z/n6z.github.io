@@ -27,7 +27,7 @@ class HeaderTemplate extends HTMLElement {
 				  <div id="myDropdown" class="dropdown-content">
 					<a href="/index.html"> <i class="fas fa-home"></i>Home</a>
 					<a href="/pages/art.html">Art</a>
-					<a href="/pages/photos.html">Photography</a>
+					<a href="/pages/photos">Photography</a>
 					<a href="/pages/poems.html">Poems</a>
 				  </div>
 				</div>
