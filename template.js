@@ -14,7 +14,7 @@ class HeaderTemplate extends HTMLElement {
 				<a href="/pages/art.html">Art</a>
 			  </li>
 			  <li class="button photos">
-				<a href="/pages/photos/photos.html">Photos</a>
+				<a href="/pages/photos">Photos</a>
 			  </li>
 			  <li class="button poem">
 				<a href="/pages/poems.html">Poems</a>

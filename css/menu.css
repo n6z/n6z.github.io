@@ -55,4 +55,7 @@
 li.button{
 	display: none;
 }
+li.home{
+	display: inline;
+}
 }

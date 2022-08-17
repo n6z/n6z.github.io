@@ -1,3 +1,4 @@
+/** photo styling */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -34,7 +35,16 @@ figure {
 	.home {
 	  display: inline;
 	}
-	.about{
-/* 		display: none;
- */	}
+  }
+
+
+  /** link styling */
+
+  ul.photo-section {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	display: flow;
+	overflow: hidden;
+	background-color: #333;
   }

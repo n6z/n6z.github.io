@@ -3,7 +3,7 @@
   font-size: 2em;
   text-align: center;
 }
-/* *temp */
+/* *reset */
 html,
 body {
   padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: rgb(77, 77, 77);
+  background-color: rgb(86, 86, 86);
   color: rgb(246, 246, 246);
   transition: background 2s ease;
   position: relative;
@@ -39,6 +39,8 @@ ul.container {
 
 li.button {
   display: flex;
+  align-items: center;
+  justify-content: center;
   float: left;
   border: solid 1px gray;
   border-bottom: none;
@@ -63,8 +65,9 @@ li a:hover {
 
 li.about {
   position: relative;
-/*   float: right;
- */}
+  /*   float: right;
+ */
+}
 
 header h3 {
   font-weight: 300;
@@ -73,16 +76,13 @@ header h3 {
 .home {
   text-decoration: underline;
 }
-
-hr {
-  text-align: center;
-}
+/** Horizontal break  */
 
 .rounded {
   border-radius: 3px;
   border-top: 4px solid #bbb;
-  margin: auto;
-  width: 35%;
+  margin: 15px auto;
+  width: 45%;
 }
 
 /* *Footer Start */
@@ -136,6 +136,14 @@ footer {
   text-align: center;
   position: relative;
 }
+.aboutme h3,
+.aboutme h1 {
+  margin: 0px;
+}
+.aboutme p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
 /* larger screen */
 @media only screen and (min-width: 565px) {
   div.aboutme {
@@ -177,4 +185,3 @@ div.poem {
   left: 45%;
   z-index: 1;
 }
-

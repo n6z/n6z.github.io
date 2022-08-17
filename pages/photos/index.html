@@ -16,25 +16,26 @@
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap");
     </style>
     <title>Tima's Website</title>
-	<script type="module" src="/template.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/photos.css" />
+    <script type="module" src="/template.js"></script>
   </head>
 
   <body>
-<header-template></header-template>
-
-    <div class="aboutme">
-      <h1>Hey ! I'm Tima😊</h1>
-      <h3>Artist, developer, gardener, tinkerer.</h3>
-      <hr class="rounded" />
-
-      <p>
-        Is this my portoflio? Maybe this is my digital garden? maybe.... this is my blog? No.. I know :) It's home.
-      </p>
-    </div>
-
-<footer-template></footer-template>
+    <header-template></header-template>
+    <main>
+      <ul class="photo-section">
+        <li>
+          <a href="/pages/photos/garden.html" class="link">community garden</a>
+        </li>
+        <li>
+          <a href="/pages/photos/monterey.html" class="link">monterey bay</a>
+        </li>
+        <li><a href="" class="link">catalina island</a></li>
+      </ul>
+    </main>
+    <footer-template></footer-template>
   </body>
 
   <script src="/index.js"></script>
