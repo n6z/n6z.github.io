@@ -49,15 +49,15 @@ class FooterTemplate extends HTMLElement {
 				<i class="fas fa-envelope-open fa-lg" aria-hidden="true"></i>
 				<span class="visually-hidden">email</span>
 			  </a>
-			  <a href="#">
+			  <a href="https://twitter.com/yrtgwterkfuivlr">
 				<i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
 				<span class="visually-hidden">twitter</span>
 			  </a>
-			  <a href="https://discordapp.com/users/466127372278824962/">
-				<i class="fab fa-discord fa-lg" aria-hidden="true"></i>
-				<span class="visually-hidden">discord</span>
+			  <a href="https://github.com/n6z/n6z.github.io">
+				<i class="fab fa-github fa-lg" aria-hidden="true"></i>
+				<span class="visually-hidden">github</span>
 			  </a>
-			  <a href="#">
+			  <a href="https://www.youtube.com/channel/UCj_GuPE11NX0KqB8wO_1ojw">
 				<i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
 				<span class="visually-hidden">youtube</span>
 			  </a>
