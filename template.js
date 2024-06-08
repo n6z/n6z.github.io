@@ -16,9 +16,7 @@ class HeaderTemplate extends HTMLElement {
 			  <li class="button photos">
 				<a href="/pages/photos">Photos</a>
 			  </li>
-			  <li class="button poem">
-				<a href="/pages/poems.html">Poems</a>
-			  </li>
+			  
 			  <li>
 				<div class="dropdown">
 				  <button onclick="myFunction()" class="dropbtn">
@@ -28,7 +26,6 @@ class HeaderTemplate extends HTMLElement {
 					<a href="/index.html"> <i class="fas fa-home"></i>Home</a>
 					<a href="/pages/art.html">Art</a>
 					<a href="/pages/photos">Photography</a>
-					<a href="/pages/poems.html">Poems</a>
 				  </div>
 				</div>
 			  </li>
