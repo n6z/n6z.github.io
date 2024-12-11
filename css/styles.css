@@ -1,6 +1,6 @@
 /* *temp */
 .construction {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
 }
 /* *reset */
@@ -156,3 +156,13 @@ footer {
 }
 
 /* *About Page End*/
+
+
+/* Blockquote Style */
+.quote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid #333;
+    font-style: italic;
+    position: relative;
+}
