@@ -155,32 +155,4 @@ footer {
   margin-bottom: 100px;
 }
 
-/* poem */
-
-div.poem {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 20px;
-  float: left;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 50px;
-  text-align: auto;
-  position: relative;
-  padding: 1em;
-  background-color: rgb(37 35 42 / 70%);
-  border-radius: 0.75rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  z-index: 0;
-}
-
-.poemBtn {
-  margin: 1em 2em;
-  padding: 1em;
-  /* center the button */
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  left: 45%;
-  z-index: 1;
-}
+/* *About Page End*/

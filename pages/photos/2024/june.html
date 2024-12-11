@@ -17,23 +17,29 @@
     </style>
     <title>Tima's Website</title>
     <script type="module" src="/template.js"></script>
+    <script type="module" src="/js/imagemodal.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/photos.css" />
   </head>
 
   <body>
     <header-template></header-template>
-
-    <div class="aboutme">
-      <h1>Hey ! I'm Tima😊</h1>
-      <h3>Artist, developer, gardener, tinkerer.</h3>
-      <hr class="rounded" />
-
-      <p>
-        Hello
-      </p>
+    <div class="main">
+		<div class="nav">
+			<a title="back" href="/pages/photos/2024/may.html" class="direction"><<</a>
+			<a title="forward" href="/pages/photos/2024/jul.html" class="direction">>></a>
+		</div>
+      <div class="gallery">
+        <figure class="gallery__item">
+          <img
+            src="/images/photography/2024/month1.jpeg"
+            alt="Month 2024"
+            class="gallery__img"
+          />
+		</figure>
+      </div>
     </div>
-
     <footer-template></footer-template>
   </body>
 
