@@ -17,24 +17,29 @@
     </style>
     <title>Tima's Website</title>
     <script type="module" src="/template.js"></script>
+    <script type="module" src="/js/imagemodal.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/photos.css" />
   </head>
 
   <body>
     <header-template></header-template>
-
-    <div class="aboutme">
-      <h1>Hey ! I'm Tima😊</h1>
-      <h3>Artist, developer, gardener, tinkerer.</h3>
-      <hr class="rounded" />
-
-      <p>
-        Hello
-        <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tima" defer></script>
-      </p>
+    <div class="main">
+		<div class="nav">
+			<a title="back" href="/pages/photos/2024/july.html" class="direction"><<</a>
+			<a title="forward" href="/pages/photos/2024/sept.html" class="direction">>></a>
+		</div>
+      <div class="gallery">
+        <figure class="gallery__item">
+          <img
+            src="/images/photography/2024/month8.jpeg"
+            alt="August 2024"
+            class="gallery__img"
+          />
+		</figure>
+      </div>
     </div>
-
     <footer-template></footer-template>
   </body>
 

@@ -166,3 +166,14 @@ footer {
     font-style: italic;
     position: relative;
 }
+
+/* Status Style */
+#statuscafe {
+  padding: .5em;
+}
+#statuscafe-username {
+  margin-bottom: .5em;
+}
+#statuscafe-content {
+  margin: 0 .1em 0.2em .1em;
+}
