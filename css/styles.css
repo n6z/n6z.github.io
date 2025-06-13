@@ -157,23 +157,41 @@ footer {
 
 /* *About Page End*/
 
-
 /* Blockquote Style */
 .quote {
-    margin: 1.5em 0;
-    padding: 1em 1.5em;
-    border-left: 4px solid #333;
-    font-style: italic;
-    position: relative;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  border-left: 4px solid #333;
+  font-style: italic;
+  position: relative;
+}
+.author {
+  font-style: normal;
+  font-size: 0.95rem;
+  margin: 1.5rem 0;
+  color: #666;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
+.author a {
+  color: #444;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.author a:hover {
+  color: #000;
+  border-bottom-color: #000;
+}
 /* Status Style */
 #statuscafe {
-  padding: .5em;
+  padding: 0.5em;
 }
 #statuscafe-username {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 #statuscafe-content {
-  margin: 0 .1em 0.2em .1em;
+  margin: 0 0.1em 0.2em 0.1em;
 }
