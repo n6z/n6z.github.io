@@ -155,6 +155,17 @@ footer {
   margin-bottom: 100px;
 }
 
+/* Status Style */
+#statuscafe {
+  padding: 0.5em;
+}
+#statuscafe-username {
+  margin-bottom: 0.5em;
+}
+#statuscafe-content {
+  margin: 0 0.1em 0.2em 0.1em;
+}
+
 /* *About Page End*/
 
 /* Blockquote Style */
@@ -185,13 +196,37 @@ footer {
   color: #000;
   border-bottom-color: #000;
 }
-/* Status Style */
-#statuscafe {
-  padding: 0.5em;
+
+/* Writing Page Styles */
+.writing-page .body {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.6;
 }
-#statuscafe-username {
-  margin-bottom: 0.5em;
+
+.writing-page .article {
+  max-width: 100%;
 }
-#statuscafe-content {
-  margin: 0 0.1em 0.2em 0.1em;
+
+.writing-page h1 {
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.8rem;
+}
+
+.writing-page h4 {
+  font-size: 20px;
+  border-bottom: 1px solid #444;
+}
+
+.writing-page p {
+  margin: 1.2rem 0;
+}
+
+.writing-page a {
+  text-decoration: none;
+}
+
+.writing-page a:hover {
+  text-decoration: underline;
 }
