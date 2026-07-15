@@ -3,6 +3,11 @@
   font-size: 1.2em;
   text-align: center;
 }
+
+.gif {
+  max-width: 200px;
+  height: auto;
+}
 /* *reset */
 html,
 body {
@@ -127,8 +132,6 @@ footer {
   display: block;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  /*   line-height: 30px;
-  margin-top: 40px;*/
   margin-left: 2em;
   margin-right: 2em;
   margin-bottom: 100px;
@@ -143,11 +146,26 @@ footer {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
 }
+
+/* Grid-based about layout */
+.aboutme-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
 /* larger screen */
 @media only screen and (min-width: 565px) {
   div.aboutme {
     margin-left: 20vw;
     margin-right: 20vw;
+  }
+  
+  .aboutme-grid {
+    grid-template-columns: 1fr 2fr;
   }
 }
 
