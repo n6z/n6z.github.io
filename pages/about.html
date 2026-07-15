@@ -19,42 +19,20 @@
     <script type="module" src="/template.js"></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/menu.css" />
-    <link rel="stylesheet" href="/css/grid.css" />
   </head>
 
   <body>
     <header-template></header-template>
 
-    <div class="aboutme-grid">
-      <div class="about-sidebar">
-        <div class="card">
-          <h3 class="card-title">Hey ! I'm Tima😊</h3>
-          <p class="card-content">Artist, developer, gardener, tinkerer.</p>
-        </div>
-        
-        <div class="skills-grid">
-          <div class="skill-tag">Art</div>
-          <div class="skill-tag">Development</div>
-          <div class="skill-tag">Gardening</div>
-          <div class="skill-tag">Tinkering</div>
-        </div>
-      </div>
-      
-      <div class="about-main">
-        <h1>About Me</h1>
-        <hr class="rounded" />
-        
-        <div class="status-card">
-          <h3>Current Status</h3>
-          <div id="statuscafe">
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
-          </div>
-          <script src="https://status.cafe/current-status.js?name=tima" defer></script>
-        </div>
-        
-        <p>Hello! Welcome to my corner of the internet. I'm passionate about creating things, whether it's through code, art, or cultivating plants in my garden.</p>
-      </div>
+    <div class="aboutme">
+      <h1>Hey ! I'm Tima😊</h1>
+      <h3>Artist, developer, gardener, tinkerer.</h3>
+      <hr class="rounded" />
+
+      <p>
+        Hello
+        <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=tima" defer></script>
+      </p>
     </div>
 
     <footer-template></footer-template>
