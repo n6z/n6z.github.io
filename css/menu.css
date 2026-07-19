@@ -59,3 +59,9 @@ li.home{
 	display: inline;
 }
 }
+
+.menu {
+  float: right;
+  margin: 10px;
+  height: 30px;
+}
