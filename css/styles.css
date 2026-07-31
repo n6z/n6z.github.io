@@ -76,6 +76,12 @@ header h3 {
 .home {
   text-decoration: underline;
 }
+
+.earth {
+  float: right;
+  margin: 10px;
+  height: 30px;
+}
 /** Horizontal break  */
 
 .rounded {
@@ -197,6 +203,10 @@ footer {
   border-bottom-color: #000;
 }
 
+.moon {
+  max-width: 100%;
+  height: auto;
+}
 /* Writing Page Styles */
 .writing-page .body {
   max-width: 40rem;

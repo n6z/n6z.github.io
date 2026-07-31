@@ -20,7 +20,7 @@ class HeaderTemplate extends HTMLElement {
 				<a href="/pages/writing.html">Writing</a>
 			  </li>
 			  <li>
-			  <img class="menu" src="images/earth.png" alt="EARTH"/>
+			  <img class="earth" src="/images/earth.png" alt="EARTH"/>
 				<div class="dropdown">
 				  <button onclick="myFunction()" class="dropbtn">
 					<i class="fas fa-bars"></i>Menu
